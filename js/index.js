@@ -189,7 +189,7 @@
 //   return result;
 // }
 // console.log(musbatlari(numbers));
-// 2-masalal
+// 2-masala
 
 // const students = [
 //   "  { name: Ali, grade: 60 }",
@@ -247,10 +247,11 @@
 //   return result;
 // }
 // console.log(tugash(str));
+
 // 8-masala
 // let arr = "saloma12 qalesan32 433324";
 // function raqam(arr) {
-//   let result = arr.match("number");
+//   let result = arr.match(number);
 //   return result;
 // }
 // console.log(raqam(arr));
@@ -264,9 +265,86 @@
 // }
 // console.log(takoroash(arr));
 // 10-masala
-const text = "Hello, world!";
-function soz(text) {
-  let result = text.replace("Hello", "hii");
+// const text = "Hello, world!";
+// function soz(text) {
+//   let result = text.replace("Hello", "hii");
+//   return result;
+// }
+// console.log(soz(text));
+// 11-masala
+// const text = "Hello, world!";
+// function sozaxtarish(text) {
+//   let result = text.search("world");
+//   return result;
+// }
+// console.log(sozaxtarish(text));
+// 12-masala
+// const text = "Hello, world!";
+// function kesibolish(text) {
+//   let result = text.slice(7, 12);
+//   return result;
+// }
+// console.log(kesibolish(text));
+// 13-masala
+// const text = "Hello, world!";
+// function boshliqboyicha(text) {
+//   let result = text.split(",");
+//   return result;
+// }
+// console.log(boshliqboyicha(text));
+// 14-masla
+// const salom = "assalomu aleykum";
+// function boshlanish(salom) {
+//   let result = salom.startsWith("assalom");
+//   return result;
+// }
+// console.log(boshlanish(salom));
+// 15-masala
+// const salom = "assalomu aleykum";
+// function ajratibolish(salom) {
+//   let result = salom.substr(8, 7);
+//   return result;
+// }
+// console.log(ajratibolish(salom));
+// 16-masala
+// const salom = "assalomu aleykum";
+// function ajratibolish(salom) {
+//   let result = salom.substring(0, 7);
+//   return result;
+// }
+// console.log(ajratibolish(salom));
+// 17-masala
+// const text = "ASSALOMU ALEYKUM";
+// function ajratibolish(text) {
+//   let result = text.toLowerCase();
+//   return result;
+// }
+// console.log(ajratibolish(text));
+// 18-masala
+// const salom = "assalomu aleykum";
+// function ajratibolish(salom) {
+//   let result = salom.toUpperCase();
+//   return result;
+// }
+// console.log(ajratibolish(salom));
+// 19-masala
+// const salom = "  assalomu aleykum! ";
+// function ajratibolish(salom) {
+//   let result = salom.trim();
+//   return result;
+// }
+// console.log(ajratibolish(salom));
+// 20-masala
+// const salom = "  assalomu aleykum";
+// function ajratibolish(salom) {
+//   let result = salom.trimStart();
+//   return result;
+// }
+// console.log(ajratibolish(salom));
+// 21-masala
+const salom = "assalomu aleykum  ";
+function ajratibolish(salom) {
+  let result = salom.trimEnd();
   return result;
 }
-console.log(soz(text));
+console.log(ajratibolish(salom));
